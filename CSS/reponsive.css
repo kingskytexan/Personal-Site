@@ -6,12 +6,12 @@
 	
 	#primary {
 		width: 50%;
-		float: left;
+		float: right;
 	}
 	
 	#secondary {
 		width: 40%;
-		float: right;
+		float: left;
 	}
 	
 	/********************

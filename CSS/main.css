@@ -20,7 +20,7 @@ img {
 }
 
 h3 {
-	margin: 0 0 1em 0;
+	margin: 0 0 .5em 0;
 }
 
 /********************
@@ -162,6 +162,7 @@ footer {
 .contact-info li.linkedin a {
 	background-image: url('../img/linkedin+logo.png');
 }
+
 /********************
 	COLORING
 ********************/
@@ -195,4 +196,8 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
 	color: #32673f;
 }
+
+/********************
+	Form Styling
+********************/
 
