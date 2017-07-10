@@ -126,9 +126,9 @@ footer {
 
 .profile-photo {
 	display: block;
-	max-width: 150px;
-	margin: 0 auto 30px;
-	border-radius: 50%;
+	max-width: 175px;
+	margin: 0 auto 50px;
+	border-radius: 15%;
 }
 
 /********************
@@ -166,39 +166,32 @@ footer {
 	COLORING
 ********************/
 
-/* Site Body */
 body {
 	background-color: #fff;
 	color: #999;
 }
 
-/* Color of Header */
 header {
 	background: #6ab47b;
 	border-color: #599a68;
 }
 
-/* nav background on mobile device */
 nav {
 	background: #599a68;
 }
 
-/* Logo Text */
 h1, h2 {
 	color: #fff;
 }
 
-/* Link Color */
 a {
 	color: #6ab47b;
 }
 
-/* Link visited */
 nav a, nav a:visited {
 	color: #fff;
 }
 
-/* selected link color */
 nav a.selected, nav a:hover {
 	color: #32673f;
 }
