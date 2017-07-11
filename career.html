@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="CSS/normalize.css">
 		<link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="CSS/main.css">
+		<link rel="stylesheet" href="CSS/form.css">
 		<link rel="stylesheet" href="CSS/responsive.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -31,14 +32,46 @@
 			</nav>
 		</header>
 		
-		<!The form to determine what kind of work is wanted>
+		<!The form to determine what kind of work is wanted from future clients>
 		<form action="career.html" method="post">
 			<h1>Future Work Possibilities</h1>
 			<fieldset>
+				<legend><span class="number">1</span> Your Contact Information:</legend>
+				
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="user_name">
+				
+				<label for="mail">Email:</label>
+				<input type="email" id="mail" name="user_email">
 			</fieldset>
 			
 			<fieldset>
+				<legend><span class="number">2</span> Contract Work</legend>
+				
+				<label for="bio">Work Requistion:</label>
+				<textarea id="bio" name="user_bio"></textarea>
+				
+				<label for="job">Job Role:</label>
+				<select id="job" name="user_job">
+					
+					<optgroup label="Swift">
+						<option value="ios_development">iOS Development</option>
+						<option value="macos_development">macOS Development</option>
+						<option value="tvOS_development">tvOS Development</option>
+						<option value="watchos_development">watchOS Development</option>
+						<option value="server_side_development">Server-Side Development</option>
+					</optgroup>
+					
+					<optgroup label="Python">
+						<option value="machine_learning_development">Machine-Learning Development</option>
+						<option value="deep_learning_development">Deep-Learning Development</option>
+					</optgroup>
+					
+				</select>
 			</fieldset>
+			
+			<button type="submit">Submit</button>
+
 		</form>
 		
 			<!The footer of the page containing social links and copyright info>

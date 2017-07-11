@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 	
 	/********************
-	TWO COLOUMN LAYOUT 
+	TWO COLOUMN LAYOUT FOR SMALLER SCREENS
 	********************/
 	
 	#primary {
@@ -15,7 +15,7 @@
 	}
 	
 	/********************
-	PAGE PORTFOLIO 
+	PORTFOLIO PAGE
 	********************/
 	
 	#gallery {
@@ -27,7 +27,7 @@
 	}
 	
 	/********************
-		PAGE ABOUT
+		ABOUT PAGE
 	********************/
 	
 	.profile-photo {
@@ -39,7 +39,7 @@
 @media screen and (min-width: 660px) {
 	
 	/********************
-	HEADING 
+	HEADING OF THE PAGE
 	********************/
 	
 	nav {
@@ -71,4 +71,16 @@
 		border-bottom: 5px solid #599a68;
 		margin-bottom: 60px;
 	}
+}
+
+@media screen and (min-width: 480px) {
+
+	/********************
+	FORM PAGE
+	********************/
+
+  form {
+    max-width: 480px;
+  }
+
 }
