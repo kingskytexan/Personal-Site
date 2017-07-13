@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 	
 	/********************
-	TWO COLOUMN LAYOUT FOR SMALLER SCREENS
+	TWO COLOUMN LAYOUT FOR SMALL SCREENS - MEDIA
 	********************/
 	
 	#primary {
@@ -15,11 +15,11 @@
 	}
 	
 	/********************
-	PORTFOLIO PAGE
+	PORTFOLIO PAGE - MEDIA
 	********************/
 	
 	#gallery {
-		width: 28.3333%;
+		width: 28%;
 	}
 	
 	#gallery li:nth-child(4n) {
@@ -27,7 +27,7 @@
 	}
 	
 	/********************
-		ABOUT PAGE
+	ABOUT PAGE - MEDIA
 	********************/
 	
 	.profile-photo {
@@ -39,7 +39,7 @@
 @media screen and (min-width: 660px) {
 	
 	/********************
-	HEADING OF THE PAGE
+	HEADING OF THE PAGE - MEDIA
 	********************/
 	
 	nav {
@@ -76,7 +76,7 @@
 @media screen and (min-width: 480px) {
 
 	/********************
-	FORM PAGE
+	FORM PAGE - MEDIA
 	********************/
 
   form {

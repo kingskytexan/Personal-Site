@@ -1,14 +1,14 @@
 /********************
-	GENERAL 
+	OVERALL STYLING
 ********************/
 body {
 	font-family: 'Open Sans', sans-serif;	
 }
 
 #wrapper {
-	max-width: 940px;
+	max-width: 950px;
 	margin: 0 auto;
-	padding: 0 5%;
+	padding: 0 10%;
 }
 
 a {
@@ -20,7 +20,7 @@ img {
 }
 
 h3 {
-	margin: 0 0 .5em 0;
+	margin: 0 0 .75em 0;
 }
 
 /********************
@@ -28,37 +28,37 @@ h3 {
 ********************/
 
 header {
-	float: left;
-	margin: 0 0 30px 0;
+	float: right;
+	margin: 0 0 20px 0;
 	padding: 5px 0 0 0;
 	width: 100%;
 }
 
 #logo {
 	text-align: center;
-	margin: 0;
+	margin: 5px;
 }
 
 h1 {
 	font-family: 'Changa One', sans-serif;
-	margin: 15px 0;
-	font-size: 1.75em;
-	font-weight: normal;
-	line-height: 0.8em;
+	margin: 10px 0;
+	font-size: 2em;
+	font-weight: lighter;
+	line-height: 1em;
 }
 
 h2 {
-	font-size: 0.75em;
+	font-size: 1em;
 	margin: -5px 0 0;
 	font-weight: normal;
 }
 /********************
-	NAVIGATION
+	NAVIGATION AND LINKS
 ********************/
 
 nav {
 	text-align: center;
-	padding: 10px 0;
+	padding: 15px 0;
 	margin: 20px 0 0;
 }
 
@@ -96,7 +96,7 @@ footer {
 }
 
 /********************
-	PAGE PORTFOLIO
+	HOME PAGE 
 ********************/
 
 #gallery {
@@ -106,7 +106,7 @@ footer {
 }
 
 #gallery li {
-	float: left;
+	float: right;
 	width: 45%;
 	margin: 2.5%;
 	background-color: #f5f5f5;
@@ -121,18 +121,18 @@ footer {
 }
 
 /********************
-	PAGE ABOUT
+	ABOUT PAGE
 ********************/
 
 .profile-photo {
 	display: block;
 	max-width: 175px;
-	margin: 0 auto 50px;
+	margin: 0 auto 55px;
 	border-radius: 15%;
 }
 
 /********************
-	PAGE CONTACT
+	CONTACT PAGE 
 ********************/
 
 .contact-info {
@@ -144,7 +144,7 @@ footer {
 
 .contact-info a {
 	display: block;
-	min-height: 20px;
+	min-height: 35px;
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
@@ -164,7 +164,7 @@ footer {
 }
 
 /********************
-	COLORING
+	COLORING FOR PAGES
 ********************/
 
 body {
@@ -173,12 +173,12 @@ body {
 }
 
 header {
-	background: #6ab47b;
-	border-color: #599a68;
+	background: #5b057e;
+	border-color: #f311e8;
 }
 
 nav {
-	background: #599a68;
+	background: #f2d704;
 }
 
 h1, h2 {
@@ -186,18 +186,17 @@ h1, h2 {
 }
 
 a {
-	color: #6ab47b;
+	color: #ab070a;
 }
 
 nav a, nav a:visited {
-	color: #fff;
+	color: #ffffff;
 }
 
 nav a.selected, nav a:hover {
-	color: #32673f;
+	color: #1212da;
 }
 
-/********************
-	Form Styling
-********************/
-
+nav a:hover {
+	text-decoration: underline;
+}

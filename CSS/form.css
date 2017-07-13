@@ -1,3 +1,6 @@
+/*************
+OVERALL STYLING
+**************/
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -6,14 +9,18 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  color: #384047;
+  color: #5b6d7e;
 }
 
+/*************
+FORM STYLING
+**************/
+
 form {
-  max-width: 300px;
+  max-width: 75%;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #f4f7f8;
+  background: #a9a9a9;
   border-radius: 8px;
 }
 
@@ -21,6 +28,10 @@ h1 {
   margin: 0 0 30px 0;
   text-align: center;
 }
+
+/*************
+INPUT STYLING
+**************/
 
 input[type="text"],
 input[type="password"],
@@ -43,7 +54,7 @@ select {
   padding: 15px;
   width: 100%;
   background-color: #e8eeef;
-  color: #8a97a0;
+  color: #2d2224;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
@@ -59,16 +70,20 @@ select {
   border-radius: 2px;
 }
 
+/*************
+FORM ELEMENT STYLING
+**************/
+
 button {
   padding: 19px 39px 18px 39px;
-  color: #FFF;
-  background-color: #4bc970;
+  color: #f5f6f9;
+  background-color: #7906eb;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #3ac162;
+  border: 1px solid #f1f7f3;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
@@ -95,8 +110,8 @@ label.light {
 }
 
 .number {
-  background-color: #5fcf80;
-  color: #fff;
+  background-color: #7906eb;
+  color: #f5f6f9;
   height: 30px;
   width: 30px;
   display: inline-block;
