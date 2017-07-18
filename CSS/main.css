@@ -24,7 +24,7 @@ h3 {
 }
 
 /********************
-	HEADING
+	HEADING STYLING
 ********************/
 
 header {
@@ -53,7 +53,7 @@ h2 {
 	font-weight: normal;
 }
 /********************
-	NAVIGATION AND LINKS
+	NAVIGATION AND LINKS STYLING
 ********************/
 
 nav {
@@ -78,7 +78,7 @@ nav a {
 }
 
 /********************
-	FOOTER
+	FOOTER STYLING
 ********************/
 
 footer {
@@ -96,7 +96,7 @@ footer {
 }
 
 /********************
-	HOME PAGE 
+	HOME PAGE STYLING
 ********************/
 
 #gallery {
@@ -123,7 +123,7 @@ footer {
 }
 
 /********************
-	ABOUT PAGE
+	ABOUT PAGE STYLING
 ********************/
 
 .profile-photo {
@@ -134,7 +134,7 @@ footer {
 }
 
 /********************
-	CONTACT PAGE 
+	CONTACT PAGE STYLING
 ********************/
 
 .contact-info {
@@ -166,7 +166,7 @@ footer {
 }
 
 /********************
-	COLORING FOR PAGES
+	COLORING FOR PAGES AND TEXT
 ********************/
 
 body {
@@ -204,17 +204,17 @@ nav a:hover {
 }
 
 /**********************
-	
+	JAVASCRIPT STYLING FOR HOMEPAGE
 **********************/
 
 #text
 {
     display: none;
-    z-index:100;
-    position:absolute;    
-    color:#020000;
-    font-size:24px;
-    font-weight:bold;
-    left:150px;
-    top:180px;
+    z-index: 100;
+    position: absolute;    
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 180px;
 }

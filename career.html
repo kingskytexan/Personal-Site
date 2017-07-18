@@ -24,7 +24,7 @@
 				
 				<!Contains the links to the other webpages>
 				<ul>
-					<li><a href ="index.html">Portfolio</a></li>
+					<li><a href ="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 					<li><a href="career.html" class="selected">Work</a></li>
@@ -32,7 +32,7 @@
 			</nav>
 		</header>
 		
-		<!The form to determine what kind of work is wanted from future clients>
+		<!The form to determine what kind of work is wanted from future prespective clients>
 		<form name="myForm" action="career.html" method="post">
 			<h1>Future Work Possibilities</h1>
 			<fieldset>
@@ -48,7 +48,7 @@
 			<fieldset>
 				<legend><span class="number">2</span> Contract Work</legend>
 				
-				<label for="bio">Work Requistion:</label>
+				<label for="bio">Work Requisition Order:</label>
 				<textarea id="bio" name="user_work"></textarea>
 				
 				<label for="job">Job Role:</label>
@@ -70,7 +70,7 @@
 				</select>
 			</fieldset>
 			
-			<button type="submit">Submit</button>
+			<button id="confirmClickActionElementId" type="submit">Submit</button>
 
 		</form>
 		
@@ -86,5 +86,6 @@
 		
 		<!Javascript file that determines that the form is correctly filled out>
 		<script src="app.js"></script>
+		<script src="button.js"></script>
 	</body>
 </html>

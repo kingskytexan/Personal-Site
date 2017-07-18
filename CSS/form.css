@@ -1,5 +1,5 @@
 /*************
-OVERALL STYLING
+OVERALL FORM PAGE STYLING
 **************/
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 }
 
 /*************
-FORM STYLING
+OVERALL FORM STYLING
 **************/
 
 form {
